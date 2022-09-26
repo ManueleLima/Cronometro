@@ -1,0 +1,44 @@
+   
+   body{
+       background-color:black;
+       font-family: 'IBM Plex Sans', sans-serif;
+   }
+   h1{
+       color:aliceblue;
+   }
+   #box{
+    height: auto;
+    width: 300px; 
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    position: absolute;
+    
+
+   }
+   div{
+        text-align:center;
+    }
+   
+    button{
+        height: 2.5em;
+        width: 6.0em;
+        border: none;
+        color: aliceblue;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    button:hover{
+        cursor: pointer; 
+    }
+
+    .start-button{
+        background-color:rgb(19, 177, 59);
+    }
+    .pause-button{
+        background-color:rgb(168, 51, 236);
+    }
+    .stop-button{
+        background-color:rgb(240, 18, 103);
+    }
